@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/562666411435979326/8ee735ec501a44549333a19da1e85a27/artifacts
+end_time: 1710186997566
+entry_point_name: ''
+experiment_id: '562666411435979326'
+lifecycle_stage: active
+run_id: 8ee735ec501a44549333a19da1e85a27
+run_name: spiffy-mouse-303
+run_uuid: 8ee735ec501a44549333a19da1e85a27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710186993030
+status: 3
+tags: []
+user_id: farid
