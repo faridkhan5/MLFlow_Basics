@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/863436342395285925/085fd0748fff43139f806a963269ee78/artifacts
+end_time: 1711346905125
+entry_point_name: ''
+experiment_id: '863436342395285925'
+lifecycle_stage: active
+run_id: 085fd0748fff43139f806a963269ee78
+run_name: marvelous-deer-929
+run_uuid: 085fd0748fff43139f806a963269ee78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711346902245
+status: 3
+tags: []
+user_id: faridkhan5

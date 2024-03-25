@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/863436342395285925/d3d335d0bf964ddba886ede5d4d0c970/artifacts
+end_time: 1711347017360
+entry_point_name: ''
+experiment_id: '863436342395285925'
+lifecycle_stage: active
+run_id: d3d335d0bf964ddba886ede5d4d0c970
+run_name: enchanting-tern-286
+run_uuid: d3d335d0bf964ddba886ede5d4d0c970
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711347014614
+status: 3
+tags: []
+user_id: faridkhan5

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/863436342395285925/8df5315840cc48b19cbb16958ae0847d/artifacts
+end_time: 1711346984748
+entry_point_name: ''
+experiment_id: '863436342395285925'
+lifecycle_stage: active
+run_id: 8df5315840cc48b19cbb16958ae0847d
+run_name: victorious-trout-370
+run_uuid: 8df5315840cc48b19cbb16958ae0847d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711346982008
+status: 3
+tags: []
+user_id: faridkhan5

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/863436342395285925/f071c1dd362e4968bafa9d7fdfe27cbf/artifacts
+end_time: 1711347263463
+entry_point_name: ''
+experiment_id: '863436342395285925'
+lifecycle_stage: active
+run_id: f071c1dd362e4968bafa9d7fdfe27cbf
+run_name: bouncy-fly-404
+run_uuid: f071c1dd362e4968bafa9d7fdfe27cbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711347260797
+status: 3
+tags: []
+user_id: faridkhan5
