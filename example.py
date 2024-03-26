@@ -11,10 +11,14 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 ### 1) START A TRACKING SERVER
 # Set our tracking server uri for logging
-mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
 
-os.environ['MLFLOW_TRACKING_USERNAME'] = 'faridkhan5'
-os.environ['MLFLOW_TRACKING_PASSWORD'] = '801f7f4defd33f302dd86616acda87ee94a5d725'
+## For local host only
+#mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
+
+## for remote server only (Dagshub)
+remote_server_uri = 'https://dagshub.com/faridkhan5/MLFlow_Basics.mlflow'
+mlflow.set_tracking_uri(remote_server_uri)
+
 
 ### 2) TRAIN A MODEL AND PREPARE METDATA FOR LOGGING
 # Load the Iris dataset
@@ -54,7 +58,7 @@ print(f"recall: {recall:.3f}")
 ### 3) LOG THE MODEL AND ITS METADATA
 # Create a new MLflow Experiment
 #terminal -> `mlflow experiments create --experiment-name [name]`
-mlflow.set_experiment(experiment_name="Classification-Test")
+mlflow.set_experiment(experiment_name="make_classification_dataset")
 
 # Start an MLflow run
 with mlflow.start_run():

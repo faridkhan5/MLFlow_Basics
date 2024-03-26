@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/f/DS_Tech_Stack/MLOps/MLflow/mlruns/132213854037703573
+creation_time: 1711481837817
+experiment_id: '132213854037703573'
+last_update_time: 1711481837817
+lifecycle_stage: active
+name: make_classification_dataset
