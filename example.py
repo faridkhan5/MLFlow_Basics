@@ -16,9 +16,12 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 #mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
 
 ## for remote server only (Dagshub)
-remote_server_uri = 'https://dagshub.com/faridkhan5/MLFlow_Basics.mlflow'
-mlflow.set_tracking_uri(remote_server_uri)
+# remote_server_uri = 'https://dagshub.com/faridkhan5/MLFlow_Basics.mlflow'
+# mlflow.set_tracking_uri(remote_server_uri)
 
+## for remote server only (AWS)
+remote_server_uri = 'http://ec2-16-170-133-156.eu-north-1.compute.amazonaws.com:5000/'
+mlflow.set_tracking_uri(remote_server_uri)
 
 ### 2) TRAIN A MODEL AND PREPARE METDATA FOR LOGGING
 # Load the Iris dataset
